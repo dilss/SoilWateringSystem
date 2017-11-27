@@ -9,7 +9,7 @@ a low power consumption given once that we want to power with a solar panel(15cm
 the system and charge the battery during day ligth. During nigth the system will be powered by a small battery.
 
 We are using the HC12 Transmitter/Receiver Radio module to perform communication between the client device(on the field) and
-the server device(at home atached to a computer and, unlike the client,  without power restrictions). This module allows com-
+the server device(at home attached to a computer and, unlike the client,  without power restrictions. This module allows com
 munication with distances up to 1.8 Km and, luck for us, is very cheap(about 4 bucks). 
 
 For moisture monitoring we will use the SparkFun Soil Moisture Sensor, a sensor that use the resistence between two probes
@@ -19,11 +19,12 @@ For hookup this system you will need:
 
 * At least two arduino boards, or the standalone arduino of you design(we pretend to do improments like this in the future);
 * One HC12 module atached on each arduino board;
-* One SparkFun Soil Moisture Sensor for every arduino you will put on the field;
-* A 5 volts battery with tha battery pack an cable;
+* One SparkFun Soil Moisture Sensor for each arduino you will put on the field;
+* A 5 volts battery with tha battery pack and cable;
 (We will make the solar part after we test the code and fixed the bugs)
 
-obs: There are many possibilities for this system, including the most obvious one, that is  to buy a solenoid valve
+obs: There are many possibilities for this system, including the most obvious one, that is  to buy a solenoid valve and mount 
+a self watering crop( Isn't that cool?);
 
 
 The workings of the code are placed as comments on all its extention, but for summarize:
