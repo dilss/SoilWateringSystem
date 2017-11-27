@@ -103,8 +103,9 @@ boolean requestCommunicationWithServer()
   HC12.print("S" + clientID + "E");
   delay(1000);
   fillHC12Buffer();
-  if(HC12ReadBuffer == "OK")
+  if(HC12ReadBuffer == "OK1A")
   {
+    Serial.println(HC12ReadBuffer);
     HC12ReadBuffer = "";
     return true;
   }

@@ -20,6 +20,8 @@ boolean commandMode = false;                    // Send AT commands
 String clientIDVect[] = {"1A","2A"};
 String initialPackageMarker = "S";              // Inicial marker of package
 String finalPackageMarker = "E";                // Final marker of a package
+String auxiliarString = "";
+String returnOk = "OK";
 int HC12IndexKeeper = 0;
 int serialIndexKeeper = 0;
 
@@ -109,7 +111,10 @@ void loop()
    if (HC12End){
       if((HC12ReadBuffer == clientIDVect[0]) or (HC12ReadBuffer == clientIDVect[1]))
        {
-          HC12.println("SOKE");
+          auxiliarString = initialPackageMarker+returnOk;
+          auxiliarString += HC12ReadBuffer;
+          
+          HC12.println(auxiliarString+finalPackageMarker);
           delay(1000);
           Serial.print("Receiving from client: ");
           Serial.println(HC12ReadBuffer);
