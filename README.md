@@ -1,5 +1,6 @@
 # Soil Watering System
 Project of a long range wireless communication system and devices, tested especifically on crops
+initiated by Edilson Fernandes on november 11, 2017.
 
 This is a very first version of a project that is intended to help on soil maintenance watering level for crops.
 The main goal of this project is to work as a long range communication system  that allows farmers to monitor their crops
@@ -34,4 +35,8 @@ The workings of the code are placed as comments on all its extention, but for su
 * We fill the code with a bunch of serial printing to observe the wrokings, this can be removed for real embedded applications
 * The pins are configured as you desired, as long as the HC12 pins are digital and the sensor pins are analog
 * Breadboard an male to male jumpers.
+
+The following statement and terms of use are included from the original source code from Joop Brokking's YMFC-AL Project
+
+/////////////////////////////////////////////////////////////////////////////////////// //Terms of use /////////////////////////////////////////////////////////////////////////////////////// //THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR //IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, //FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN //THE SOFTWARE. /////////////////////////////////////////////////////////////////////////////////////// //Safety note /////////////////////////////////////////////////////////////////////////////////////// //Always remove the propellers and stay away from the motors unless you //are 100% certain of what you are doing. ///////////////////////////////////////////////////////////////////////////////////////
 
